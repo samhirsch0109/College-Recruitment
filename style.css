@@ -9,3 +9,42 @@ a.nav-link {
 .text-center {
     margin-top: 30px;
 }
+
+/* code from codepen https://codepen.io/dapunkt/pen/QWjQbYY */
+.swap-on-hover {
+    position: relative;
+      margin:  0 auto;
+      max-width: 400px;
+    }
+  
+  
+  .swap-on-hover img {
+    position: absolute;
+    top:0;
+    left:0;
+      overflow: hidden;
+      width: 400px;
+      height: 400px;
+      border-radius: 20px;
+      border: 2px solid black;
+  }
+  
+  .swap-on-hover .swap-on-hover__front-image {
+    z-index: 9999;
+    transition: opacity .5s linear;
+    cursor: pointer;
+  }
+  
+  .swap-on-hover:hover > .swap-on-hover__front-image{
+    opacity: 0;
+  }
+
+  .container-fluid {
+    margin-top: 400px;
+  }
+/* end of codepen */
+
+h1.text-center {
+    text-align: center;
+    margin: auto;
+}
