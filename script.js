@@ -16,48 +16,52 @@ const randomSayingElement = document.getElementById('text');
 randomSayingElement.innerHTML = `<strong style="color: #FFB81C">${getRandomText()}</strong>`;
 
 function year1classes() {
-    document.getElementById('changeTitle').innerText = 'Freshman classes:';
+    document.getElementById('changeTitle').innerText = 'Freshman Classes:';
     document.getElementById('changeText').innerHTML = `
         Fall Sample Schedule:
         <ul>
-            <li> CMPINF 0401 - INTERMEDIATE PROGRAMMING (4 cr)</li>
-            <li> MATH 0220 - ANALYTIC GEOMETRY AND CALCULUS 1 (4 cr) </li>
-            <li> CMPINF 0001 - SCI FIRST-YEAR SEMINAR (1 cr)</li>
-            <li> CMPINF 0010 - BIG IDEAS IN COMPUTING AND INFORMATION (4 cr)</li>
-            <li> ENGCMP 0200 - SEMINAR IN COMPOSITION (3 cr)</li>
+         - CMPINF 0401 - INTERMEDIATE PROGRAMMING (4 cr) <br>
+       - MATH 0220 - ANALYTIC GEOMETRY AND CALCULUS 1 (4 cr) <br>
+           - CMPINF 0001 - SCI FIRST-YEAR SEMINAR (1 cr) <br>
+            - CMPINF 0010 - BIG IDEAS IN COMPUTING AND INFORMATION (4 cr) <br>
+            - ENGCMP 0200 - SEMINAR IN COMPOSITION (3 cr) <br>
         </ul>
  <br>
          Spring Sample Schedule:
         <ul>
-            <li> CMPINF 0401 - INTERMEDIATE PROGRAMMING (4 cr)</li>
-            <li> MATH 0220 - ANALYTIC GEOMETRY AND CALCULUS 1 (4 cr) </li>
-            <li> CMPINF 0001 - SCI FIRST-YEAR SEMINAR (1 cr)</li>
-            <li> CMPINF 0010 - BIG IDEAS IN COMPUTING AND INFORMATION (4 cr)</li>
-            <li> ENGCMP 0200 - SEMINAR IN COMPOSITION (3 cr)</li>
+            - CMPINF 0401 - INTERMEDIATE PROGRAMMING (4 cr) <br>
+            - MATH 0220 - ANALYTIC GEOMETRY AND CALCULUS 1 (4 cr) <br>
+           - CMPINF 0001 - SCI FIRST-YEAR SEMINAR (1 cr) <br>
+            - CMPINF 0010 - BIG IDEAS IN COMPUTING AND INFORMATION (4 cr) <br>
+            - ENGCMP 0200 - SEMINAR IN COMPOSITION (3 cr) <br>
         </ul>
     `;
 }
 
 
 function year2classes() {
-    document.getElementById('changeTitle').innerText = 'Sophomore classes'
+    document.getElementById('changeTitle').innerText = 'Sophomore Classes:'
     document.getElementById('changeText').innerHTML = `
     Fall Sample Schedule:
     <ul>
-        <li> CMPINF 0401 - INTERMEDIATE PROGRAMMING (4 cr)</li>
-        <li> MATH 0220 - ANALYTIC GEOMETRY AND CALCULUS 1 (4 cr) </li>
-        <li> CMPINF 0001 - SCI FIRST-YEAR SEMINAR (1 cr)</li>
-        <li> CMPINF 0010 - BIG IDEAS IN COMPUTING AND INFORMATION (4 cr)</li>
-        <li> ENGCMP 0200 - SEMINAR IN COMPOSITION (3 cr)</li>
+        - CS 1503 - MATHEMATICAL FOUNDATIONS OF MACHINE LEARNING
+(4 cr) <br>
+        - CS 0447 - COMPUTER ORGANIZATION AND ASSEMBLY LANGUAGE
+ (3 cr) <br>
+        - GER (3 cr) <br>
+        - Elective (3 cr) <br>
+        - Elective (3 cr) <br>
     </ul>
 <br>
      Spring Sample Schedule:
     <ul>
-        <li> CMPINF 0401 - INTERMEDIATE PROGRAMMING (4 cr)</li>
-        <li> MATH 0220 - ANALYTIC GEOMETRY AND CALCULUS 1 (4 cr) </li>
-        <li> CMPINF 0001 - SCI FIRST-YEAR SEMINAR (1 cr)</li>
-        <li> CMPINF 0010 - BIG IDEAS IN COMPUTING AND INFORMATION (4 cr)</li>
-        <li> ENGCMP 0200 - SEMINAR IN COMPOSITION (3 cr)</li>
+        - CS 0449 - INTRODUCTION TO SYSTEMS SOFTWARE
+ (3 cr)<br>
+      - CS 1501 - ALGORITHMS AND DATA STRUCTURES 2 (3r)
+ <br>
+        - GER (3 cr) <br>
+        - GER (3 cr)<br>
+        - Elective (3 cr)<br>
     </ul>
     `;
 }
@@ -65,47 +69,47 @@ function year2classes() {
 
 
 function year3classes() {
-    document.getElementById('changeTitle').innerText = 'Junior Classes'
+    document.getElementById('changeTitle').innerText = 'Junior Classes:'
     document.getElementById('changeText').innerHTML = `
     Fall Sample Schedule:
     <ul>
-        <li> CMPINF 0401 - INTERMEDIATE PROGRAMMING (4 cr)</li>
-        <li> MATH 0220 - ANALYTIC GEOMETRY AND CALCULUS 1 (4 cr) </li>
-        <li> CMPINF 0001 - SCI FIRST-YEAR SEMINAR (1 cr)</li>
-        <li> CMPINF 0010 - BIG IDEAS IN COMPUTING AND INFORMATION (4 cr)</li>
-        <li> ENGCMP 0200 - SEMINAR IN COMPOSITION (3 cr)</li>
+        - CS 1502  (3 cr) <br>
+        - CS UL 1 (3 cr) <br>
+        - GER (3 cr) <br>
+        - GER (3 cr)  <br>
+        - Elective (3 cr)<br> 
     </ul>
 <br>
      Spring Sample Schedule:
     <ul>
-        <li> CMPINF 0401 - INTERMEDIATE PROGRAMMING (4 cr)</li>
-        <li> MATH 0220 - ANALYTIC GEOMETRY AND CALCULUS 1 (4 cr) </li>
-        <li> CMPINF 0001 - SCI FIRST-YEAR SEMINAR (1 cr)</li>
-        <li> CMPINF 0010 - BIG IDEAS IN COMPUTING AND INFORMATION (4 cr)</li>
-        <li> ENGCMP 0200 - SEMINAR IN COMPOSITION (3 cr)</li>
+        - CS UL 2 (3 cr)<br>
+        - CS UL 3 (3 cr) <br>
+            - GER (3 cr) <br>
+        - GER (3 cr)  <br>
+        - Elective (3 cr) <br>
     </ul>
     `;
 }
 
 function year4classes() {
-    document.getElementById('changeTitle').innerText = 'Senior Classes'
+    document.getElementById('changeTitle').innerText = 'Senior Classes:'
     document.getElementById('changeText').innerHTML = `
     Fall Sample Schedule:
     <ul>
-        <li> CMPINF 0401 - INTERMEDIATE PROGRAMMING (4 cr)</li>
-        <li> MATH 0220 - ANALYTIC GEOMETRY AND CALCULUS 1 (4 cr) </li>
-        <li> CMPINF 0001 - SCI FIRST-YEAR SEMINAR (1 cr)</li>
-        <li> CMPINF 0010 - BIG IDEAS IN COMPUTING AND INFORMATION (4 cr)</li>
-        <li> ENGCMP 0200 - SEMINAR IN COMPOSITION (3 cr)</li>
+        - CS UL 4 (3 cr) <br>
+       - CS UL 5 (3 cr) <br>
+  - Capstone (3 cr) <br>
+       - GER (3 cr)<br>
+      - Elective (3 cr)<br>
     </ul>
 <br>
      Spring Sample Schedule:
     <ul>
-        <li> CMPINF 0401 - INTERMEDIATE PROGRAMMING (4 cr)</li>
-        <li> MATH 0220 - ANALYTIC GEOMETRY AND CALCULUS 1 (4 cr) </li>
-        <li> CMPINF 0001 - SCI FIRST-YEAR SEMINAR (1 cr)</li>
-        <li> CMPINF 0010 - BIG IDEAS IN COMPUTING AND INFORMATION (4 cr)</li>
-        <li> ENGCMP 0200 - SEMINAR IN COMPOSITION (3 cr)</li>
+        - CS UL 6 (3 cr)  <br>
+    - CS UL 7 or Elective (3 cr) <br>
+     -  GER (3 cr) <br>
+     - Elective (3 cr) <br>
+       - Elective (3 cr)  <br>
     </ul>
     `;
 }
