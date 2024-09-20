@@ -25,13 +25,52 @@ a.nav-link.active {
 
 a.nav-link.active:hover {
   color: #003594 !important;
-  text-decoration: underline;
 }
 
-a.nav-link:hover {
-  text-decoration: underline;
-  color: #003594;
+a.nav-link.active {
+  color: FFB81C !important;
+  text-decoration: none;
 }
+
+.hover-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.hover-nav li {
+  float: left;
+}
+
+.hover-nav li a {
+  position: relative;
+  display: block;
+  color: #FFB81C;
+  text-align: center;
+  padding: 8px 12px;
+  text-decoration: none;
+  z-index: 0;
+}
+
+.hover-nav li a::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  left: 0;
+  background-color: #FFB81C;
+  z-index: -1;
+  transform: scale(0);
+  transition: transform 0.5s ease-in-out;
+}
+
+.hover-nav li a:hover::before,
+.hover-nav li a:focus::before {
+  transform: scale(1);
+}
+
 
 .text-center {
   margin-top: 30px;
@@ -123,7 +162,7 @@ hr {
 button {
   background-color: #FFB81C;
   text-decoration: none;
-  border-radius: 5px;
+  border-radius: 20px;
   border: 0.5px solid black;
 }
 
@@ -148,13 +187,12 @@ button:hover {
   line-height: 50px;
   margin: 10px;
   display: inline-block;
+  text-decoration: none;
   border-radius: 50%;
-  background-color: #f0f0f0;
   transition: background-color 0.3s, transform 0.3s;
 }
 
 .fa:hover {
-  background-color: #ddd;
   transform: scale(1.1);
 }
 
@@ -176,4 +214,14 @@ button:hover {
 
 .fa-github {
   color: #333;
+}
+
+a.noline {
+  text-decoration: none;
+  color: black;
+}
+
+
+a.noline:hover {
+  text-decoration: underline;
 }

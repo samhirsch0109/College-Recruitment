@@ -36,6 +36,9 @@ function year1classes() {
             - ENGCMP 0200 - SEMINAR IN COMPOSITION (3 cr) <br>
         </ul>
     `;
+
+    showMoreInfoButton();
+
 }
 
 
@@ -64,6 +67,9 @@ function year2classes() {
         - Elective (3 cr)<br>
     </ul>
     `;
+
+    showMoreInfoButton();
+
 }
 
 
@@ -89,6 +95,9 @@ function year3classes() {
         - Elective (3 cr) <br>
     </ul>
     `;
+
+    showMoreInfoButton();
+
 }
 
 function year4classes() {
@@ -112,6 +121,9 @@ function year4classes() {
        - Elective (3 cr)  <br>
     </ul>
     `;
+
+    showMoreInfoButton();
+
 }
 
 function generalinfo() {
@@ -125,4 +137,14 @@ function generalinfo() {
  <br> Dr. Amy Babay, an assistant professor who has a PhD from Johns Hopkins University.
 <br> Dr. Jacob Biehl, a professor who was previously a research assistant.
 <br> Dr. Childers, who is the dean of the School of Computing and Information.`
+
+    hideMoreInfoButton();
+}
+
+function showMoreInfoButton() {
+    document.getElementById('moreInfoButton').style.display = 'inline-block';
+}
+
+function hideMoreInfoButton() {
+    document.getElementById('moreInfoButton').style.display = 'none';
 }
