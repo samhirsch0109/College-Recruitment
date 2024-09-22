@@ -10,7 +10,7 @@
     <!-- Bootstrap CSS v5.2.1 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
@@ -24,7 +24,7 @@
                 width="300px"></a>
     </div>
 
-  
+    <!--start of nav-->
     <nav class="navbar navbar-expand-lg hover-nav">
         <div class="container-fluid justify-content-center">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
@@ -54,24 +54,24 @@
             </div>
         </div>
     </nav>
-
+    <!--end of nav-->
 
 
 
     <div class="text-center">
         <h1 id="text"></h1>
-       
 
-            <!--code from codepen-->
-            <figure class="swap-on-hover">
-                <img class="swap-on-hover__front-image" src="pictures/pitt.jpg">
-                <img class="swap-on-hover__back-image" src="pictures/cathy.jpg" />
-            </figure>
 
-            <main>
+        <!--code from codepen-->
+        <figure class="swap-on-hover">
+            <img class="swap-on-hover__front-image" src="pictures/pitt.jpg">
+            <img class="swap-on-hover__back-image" src="pictures/cathy.jpg" />
+        </figure>
 
- <div class="container">
+        <main>
 
+            <div class="container">
+                <!--about div-->
                 <div id="about">
                     <div class="row p-3">
                         <div class="container-fluid">
@@ -102,6 +102,8 @@
                         </div>
                     </div>
                 </div>
+                <!--end of about-->
+                <!--academics-->
 
                 <div id="academics">
                     <div class="row p-3">
@@ -109,34 +111,44 @@
                         <div class="container-fluid">
                             <div class="row p-12">
                                 <!-- Hero-->
-                                <div class="col-12 col-lg-6 my-3 my-lg-0 p-3 d-flex flex-column align-items-center text-center rounded-3 bg-white border border-black p-2">
-                                   
-                                        <h1 id="changeTitle"><b> Major Info</b> </h1> <br> 
-                                        <div id="classList">
+                                <div
+                                    class="col-12 col-lg-6 my-3 my-lg-0 p-3 d-flex flex-column align-items-center text-center rounded-3 bg-white border border-black p-2">
+
+                                    <h2 id="changeTitle"><b> Computer Science Information </b> </h2> <br>
+                                    <div id="classList">
                                         <p class="font" id="changeText">
-                                        The University of Pittsburgh offers over 100 majors. The department of Computer Science is part of the School of
-                                        Computing and Information. The computer science major requires a total of 54 credits distributed across computer science courses, mathematics co-requisite
-                                        courses, and a capstone experience. They must also take classes on systems, discrete math, and statistics as well as general education classes. 
-                                        In addition, all Computer Science majors must complete a capstone experience prior to graduation. <br>
-                                        Some of the faculty includes:
-                                        <br> Dr. Amy Babay, an assistant professor who has a PhD from Johns Hopkins University.
-                                        <br> Dr. Jacob Biehl, a professor who was previously a research assistant.
-                                        <br> Dr. Childers, who is the dean of the School of Computing and Information.
-                                    </p>
-                                    <a class="link" href="https://www.cs.pitt.edu/current-students/bs-computer-science/sample-plan-study" target="_blank">Click here for more information</a> 
-                                    <br><br>
-                                    <!-- Buttons placed under the text -->
-                                    <div class="p-3">
+                                            The University of Pittsburgh offers over 100 majors. The department of
+                                            Computer Science is part of the School of
+                                            Computing and Information. The computer science major requires a total of 54
+                                            credits distributed across computer science courses, mathematics
+                                            co-requisite
+                                            courses, and a capstone experience. They must also take classes on systems,
+                                            discrete math, and statistics as well as general education classes.
+                                            In addition, all Computer Science majors must complete a capstone experience
+                                            prior to graduation. <br>
+                                            Some of the faculty includes:
+                                            <br> Dr. Amy Babay, an assistant professor who has a PhD from Johns Hopkins
+                                            University.
+                                            <br> Dr. Jacob Biehl, a professor who was previously a research assistant.
+                                            <br> Dr. Childers, who is the dean of the School of Computing and
+                                            Information.
+                                        </p>
+                                        <a class="link" href="https://www.cs.pitt.edu/about" target="_blank">Click here
+                                            for more information</a>
+                                        <br><br>
+                                        <!-- Buttons placed under the text -->
+                                        <div class="p-3">
                                             <button onclick="year1classes()">Year 1 </button>
-                                        <button onclick="year2classes()">Year 2 </button>
-                                        <button onclick="year3classes()">Year 3 </button>
-                                        <button onclick="year4classes()">Year 4 </button>
-                                        <button id="moreInfoButton" style="display: none;" onclick="generalinfo()">More Information</button>
+                                            <button onclick="year2classes()">Year 2 </button>
+                                            <button onclick="year3classes()">Year 3 </button>
+                                            <button onclick="year4classes()">Year 4 </button>
+                                            <button id="moreInfoButton" style="display: none;" onclick="generalinfo()">
+                                                Info </button>
+                                        </div>
                                     </div>
                                 </div>
-                                </div>
-        
-             
+
+
                                 <div class="col-12 col-lg-6 p-5 rounded-3 bg-hero-image-bday rounded-3">
                                     <div class="d-flex justify-content-center align-items-center h-100">
                                         <a class="link" href="https://www.academics.pitt.edu/undergraduate-programs"
@@ -148,7 +160,8 @@
                             </div>
                         </div>
                     </div>
-
+                    <!--end of academics-->
+                    <!--student life div-->
                     <div id="life">
                         <div class="row p-3">
                             <div class="container-fluid2">
@@ -181,7 +194,8 @@
                             </div>
                         </div>
                     </div>
-
+                    <!--end of student life div-->
+                    <!--tuition-->
                     <div id="tuition">
                         <div class="row p-3">
                             <div class="container-fluid1">
@@ -207,6 +221,8 @@
                                 </div>
                             </div>
                         </div>
+                        <!--end of tuition-->
+                        <!--start of alumni div-->
                         <div id="alumni">
                             <div class="row p-3">
                                 <div class="container-fluid2">
@@ -229,60 +245,71 @@
                                                 students with valuable real-world experience and networking
                                                 opportunities.
                                             </p>
-
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-        </div>
-    </div>
-    </main>
-    <footer>
-        <!-- place footer here -->
-        <hr>
-        <div class="text-center">
+                        <div class="d-flex justify-content-center">
+                            <div class="container1">
+                                <iframe class="responsive-iframe"
+                                    src="https://www.youtube.com/embed/O7T7kFuHow8?si=uquSLpW6KXnTbPZL"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+                                <!--end of content-->
+        </main>
+        <footer>
+            <!-- place footer here -->
+            <hr>
             <div class="text-center">
-                <footer class="site-footer mt-auto">
-                    <div class="container-fluid footer-content">
+                <div class="text-center">
+                    <footer class="site-footer mt-auto">
+                        <div class="container-fluid footer-content">
 
 
-                        <div class="row text-center">
-                            <div class="col-sm-12 col-md-6">
-                                <h6>Contact Information</h6>
-                                <p class="text-justify">University of Pittsburgh</p>
-                                <p class="one"><b>Address:</b> 4200 Fifth Ave. Pittsburgh, PA 15260</p>
-                                <p class="two"><b>Phone:</b> +1 412-624-4141</p>
-                                <a class="noline" href="https://www.pitt.edu/" target="_blank">  <p class="two"><b> More Information </b> </p> </a>
+                            <div class="row text-center">
+                                <div class="col-sm-12 col-md-6">
+                                    <h6>Contact Information</h6>
+                                    <p class="text-justify">University of Pittsburgh</p>
+                                    <p class="one"><b>Address:</b> 4200 Fifth Ave. Pittsburgh, PA 15260</p>
+                                    <p class="two"><b>Phone:</b> +1 412-624-4141</p>
+                                    <a class="noline" href="https://www.pitt.edu/" target="_blank">
+                                        <p class="two"><b> More Information </b> </p>
+                                    </a>
 
 
-                             
-                            </div>
-                            <div class="col-xs-6 col-md-6">
-                                <h6>Social Media</h6>
-                                <link rel="stylesheet"
-                                    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-                                <a href="https://www.facebook.com/upitt/"  target="_blank" class="fa fa-facebook"  </a>
-                                <a href="https://twitter.com/PittTweet?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"  target="_blank" class="fa fa-twitter"</a>
-                                <a href="https://www.instagram.com/pittofficial/?hl=en"  target="_blank" class="fa fa-instagram"></a>
-                                <a href="https://github.com/dashboard" target="_blank" class="fa fa-github"></a>
-        
-                   
-    </footer> 
-    </div>
-    <!--end of footer-->
-    </footer>
-    <!-- Bootstrap JavaScript Libraries -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-        crossorigin="anonymous"></script>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
-        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
-        crossorigin="anonymous"></script>
-    <script src="script.js"> </script>
+                                </div>
+                                <div class="col-xs-6 col-md-6">
+                                    <h6>Social Media</h6>
+                                    <link rel="stylesheet"
+                                        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                                    <a href="https://www.facebook.com/upitt/" target="_blank" class="fa fa-facebook"
+                                        </a>
+                                        <a href="https://twitter.com/PittTweet?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+                                            target="_blank" class="fa fa-twitter" </a>
+                                            <a href="https://www.instagram.com/pittofficial/?hl=en" target="_blank"
+                                                class="fa fa-instagram"></a>
+                                            <a href="https://github.com/dashboard" target="_blank"
+                                                class="fa fa-github"></a>
+
+
+                    </footer>
+                </div>
+                <!--end of footer-->
+        </footer>
+        <!-- Bootstrap JavaScript Libraries -->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+            crossorigin="anonymous"></script>
+        <script src="script.js"> </script>
 </body>
 
 </html>

@@ -2,7 +2,6 @@ const texts = [
     "Hello Future Panthers!",
     "Hail to Pitt!",
     "Go Panthers!",
-    "H2P!",
     "Welcome!",
 ];
 
@@ -16,7 +15,7 @@ const randomSayingElement = document.getElementById('text');
 randomSayingElement.innerHTML = `<strong style="color: #FFB81C">${getRandomText()}</strong>`;
 
 function year1classes() {
-    document.getElementById('changeTitle').innerText = 'Freshman Classes:';
+    document.getElementById('changeTitle').innerHTML = '<strong>Freshman Classes:</strong>';
     document.getElementById('changeText').innerHTML = `
         Fall Sample Schedule:
         <ul>
@@ -43,7 +42,7 @@ function year1classes() {
 
 
 function year2classes() {
-    document.getElementById('changeTitle').innerText = 'Sophomore Classes:'
+    document.getElementById('changeTitle').innerHTML = '<strong>Sophomore Classes:</strong>'
     document.getElementById('changeText').innerHTML = `
     Fall Sample Schedule:
     <ul>
@@ -75,7 +74,7 @@ function year2classes() {
 
 
 function year3classes() {
-    document.getElementById('changeTitle').innerText = 'Junior Classes:'
+    document.getElementById('changeTitle').innerHTML = '<strong>Junior Classes:</strong>'
     document.getElementById('changeText').innerHTML = `
     Fall Sample Schedule:
     <ul>
@@ -101,7 +100,7 @@ function year3classes() {
 }
 
 function year4classes() {
-    document.getElementById('changeTitle').innerText = 'Senior Classes:'
+    document.getElementById('changeTitle').innerHTML = '<strong>Senior Classes:</strong>'
     document.getElementById('changeText').innerHTML = `
     Fall Sample Schedule:
     <ul>
@@ -127,7 +126,7 @@ function year4classes() {
 }
 
 function generalinfo() {
-    document.getElementById('changeTitle').innerText = 'Major Info'
+    document.getElementById('changeTitle').innerHTML = '<strong>Computer Science Information</strong>';
     document.getElementById('changeText').innerHTML = ` 
     The University of Pittsburgh offers over 100 majors. The department of Computer Science is part of the School of
      Computing and Information. The computer science major requires a total of 54 credits distributed across computer science courses, mathematics co-requisite
