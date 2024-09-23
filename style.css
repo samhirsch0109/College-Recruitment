@@ -38,6 +38,7 @@ a.nav-link.active {
   margin: 0;
   padding: 0;
   overflow: hidden;
+  font-family: "Raleway", sans-serif;
 }
 
 .hover-nav li {
@@ -52,6 +53,7 @@ a.nav-link.active {
   padding: 8px 12px;
   text-decoration: none;
   z-index: 0;
+  font-family: "Raleway", sans-serif;
 }
 
 .hover-nav li a::before {
@@ -132,7 +134,8 @@ img.logo {
 }
 
 h1 {
-  color: #003594
+  color: #003594;
+  font-family: 'Outfit';
 }
 
 #academics {
@@ -228,7 +231,7 @@ a.noline:hover {
   text-decoration: underline;
 }
 
-h2 {
+h3 {
   font-family: "Nunito", sans-serif;
   color: #003594;
 }
